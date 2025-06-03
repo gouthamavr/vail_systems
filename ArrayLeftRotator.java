@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class ArrayLeftRotator {
     public static int[] rotateLeft(int[] originalArray, int numPositions) {
         if (originalArray == null || originalArray.length == 0) {
-            return originalArray; // Nothing to rotate, return as is.
+            return originalArray;
         }
 
         if (numPositions < 0) {
